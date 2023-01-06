@@ -6,22 +6,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-    color: #333;
+    color: white;
 }
 
 body {
     margin: 10rem;
-    background: url('../assets/bg.jpg') center center no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: rgb(106,50,195);
+    background: linear-gradient(325deg, rgba(106,50,195,1) 11%, rgba(79,23,167,1) 24%, rgba(63,5,154,1) 48%, rgba(106,50,195,1) 90%);
 }
 
 button {
-    background-color: #fdfdfd;
-    color: #102f5e;
-    border: 2px solid #102f5e;
+    background-color: #7e4ccd;
+    color: #6638af;
+    border: 2px solid #6638af;
     padding: .3rem .6rem;
     font-size: 1rem;
     cursor: pointer;
@@ -32,7 +29,7 @@ button {
 }
 
 button:hover {
-    background-color: #102f5e;
+    background-color: #6638af;
     color: white;
 }
 
@@ -41,13 +38,14 @@ button:hover > i {
 }
 
 button i {
-    color: #102f5e;
+    color: rgb(224, 224, 224);
     font-weight: bold;
     pointer-events: none;
 }
 
-input, select {
+input, select, option {
     padding: .25rem .5rem;
+    color: rgb(99, 99, 99) !important; 
 }
 
 .hide {
@@ -59,7 +57,7 @@ input, select {
 .todo-container {
     max-width: 450px;
     margin: 3rem auto;
-    background-color: #fdfdfd;
+    background-color: #9667e0;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -92,6 +90,11 @@ input, select {
 
 #cancel-edit-btn {
     margin-top: 1rem;
+    color: rgb(230, 230, 230);
+}
+
+#cancel-edit-btn:hover {
+    color: white;
 }
 
 
@@ -155,7 +158,7 @@ input, select {
 }
 
 .done {
-    background-color: #395169;
+    background-color: #5e379c;
 }
 
 .done h3 {
